@@ -358,7 +358,7 @@ const es = {
           'Chatbot matemático impulsado por IA que resuelve problemas paso a paso, renderiza fórmulas en LaTeX y adapta las explicaciones al nivel del estudiante. Bilingüe (EN/ES), con historial de conversaciones y modo oscuro.',
         tags: ['Claude AI', 'React', 'KaTeX', 'TypeScript'],
         links: [
-          { label: 'Ver demo →', href: 'http://localhost:5174/', external: true },
+          { label: 'Ver demo →', href: '/mathmind', external: false },
         ],
       },
       {
@@ -777,7 +777,7 @@ const en = {
           'AI-powered math chatbot that solves problems step by step, renders formulas with LaTeX and adapts explanations to the student\'s level. Bilingual (EN/ES), with conversation history and dark mode.',
         tags: ['Claude AI', 'React', 'KaTeX', 'TypeScript'],
         links: [
-          { label: 'View demo →', href: 'http://localhost:5174/', external: true },
+          { label: 'View demo →', href: '/mathmind', external: false },
         ],
       },
       {
