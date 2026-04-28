@@ -74,9 +74,18 @@ export default function ContactForm() {
     }
 
     setStatus('submitting');
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setStatus('success');
-    setFormData({ nombre: '', email: '', asunto: '', mensaje: '' });
+    try {
+      const res = await fetch('https://contact-form.yonatanguerrero430.workers.dev', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error('Server error');
+      setStatus('success');
+      setFormData({ nombre: '', email: '', asunto: '', mensaje: '' });
+    } catch {
+      setStatus('error');
+    }
     setTimeout(() => setStatus('idle'), 3000);
   };
 
@@ -274,10 +283,10 @@ export default function ContactForm() {
             >
               <h3 className="text-caption text-[#5A6375] mb-6">{t.contactForm.directContactLabel}</h3>
               <div className="space-y-3">
-                <a href="mailto:contacto@yonatanguerrero.com" className="group flex items-center gap-3 py-1">
+                <a href="mailto:contacto@drguerrero.dev" className="group flex items-center gap-3 py-1">
                   <Mail className="w-5 h-5 text-[#D4A853] shrink-0" />
                   <span className="text-[1rem] text-[#F0EDE6] group-hover:text-[#D4A853] group-hover:underline transition-colors duration-300">
-                    contacto@yonatanguerrero.com
+                    contacto@drguerrero.dev
                   </span>
                 </a>
                 <div className="flex items-center gap-3 py-1">

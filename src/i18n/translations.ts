@@ -22,7 +22,7 @@ const es = {
   trajectory: {
     sectionLabel: 'TRAYECTORIA',
     name: 'Yonatan Guerrero Soriano',
-    subtitle: 'PhD en Educación · Matemático · EdTech · IA',
+    subtitle: 'EdD en Educación · Matemático · EdTech · IA',
     quote:
       'Mi trabajo vive en la intersección: donde la teoría educativa se encuentra con la implementación tecnológica, y donde las matemáticas encuentran nuevos lenguajes para enseñar.',
     timeline: [
@@ -112,7 +112,7 @@ const es = {
     navLabel: 'Navegación',
     linksLabel: 'Enlaces',
     contactLabel: 'Contacto',
-    location: 'México',
+    location: 'Puerto Rico, EE. UU.',
     copyright: '© 2025 Yonatan Guerrero Soriano',
     tagline: 'Hecho con rigor académico y código',
   },
@@ -121,7 +121,7 @@ const es = {
     breadcrumbCurrent: 'Sobre mí',
     subtitle: 'Doctor en Educación · Matemático · Investigador · Innovador EdTech',
     stats: [
-      { abbr: 'PhD', label: 'Doctorado en Educación' },
+      { abbr: 'EdD', label: 'Doctorado en Educación' },
       { abbr: 'MSc', label: 'Biomatemáticas' },
       { abbr: 'EdTech', label: 'Tecnología Educativa' },
       { abbr: 'IA', label: 'Inteligencia Artificial' },
@@ -146,25 +146,25 @@ const es = {
     headingAccent: 'aquí',
     items: [
       {
-        title: 'Doctorado en Educación',
-        institution: 'Universidad [Nombre]',
-        focus: 'Tecnología instruccional y educación a distancia',
+        title: 'Bachillerato en Biomatemáticas',
+        institution: 'Universidad Metropolitana (UAGM)',
+        focus: 'Matemáticas Aplicadas, Bioinformática y Biología Computacional',
         description:
-          'Investigación doctoral centrada en el diseño de entornos de aprendizaje mediados por tecnología, con énfasis en educación matemática y entornos híbridos.',
+          'Formación sólida en modelado matemático, análisis de datos biológicos y métodos computacionales. Base que consolidó mi pensamiento analítico y cuantitativo.',
       },
       {
-        title: 'Maestría en Biomatemáticas',
-        institution: 'Universidad [Nombre]',
-        focus: 'Modelado matemático de sistemas biológicos',
+        title: 'Maestría en Educación (MEd)',
+        institution: 'Inter American University of Puerto Rico – Metropolitan Campus',
+        focus: 'Ciencias de la Educación con Especialización en Matemáticas',
         description:
-          'Formación en modelado matemático aplicado, análisis de datos biológicos y métodos computacionales para la investigación científica.',
+          'Profundización en didáctica de las matemáticas, diseño curricular y evaluación formativa. Suma Cum Laude. Énfasis en matemática discreta y metodologías de enseñanza.',
       },
       {
-        title: 'Especialización en Educación Matemática',
-        institution: 'Universidad [Nombre]',
-        focus: 'Didáctica, diseño curricular y evaluación',
+        title: 'Doctorado en Educación (EdD)',
+        institution: 'Nova Southeastern University',
+        focus: 'Especialización en Tecnología Instruccional y Educación a Distancia',
         description:
-          'Profundización en los métodos de enseñanza de las matemáticas, diseño de currículo matemático y estrategias de evaluación formativa.',
+          'Investigación doctoral centrada en estrategias de diseño instruccional para el aprendizaje híbrido de matemáticas con IA como herramienta pedagógica.',
       },
       {
         title: 'Digital Mathematics',
@@ -275,7 +275,7 @@ const es = {
     validationMessageRequired: 'El mensaje es obligatorio',
     validationMessageMin: 'El mensaje debe tener al menos 10 caracteres',
     directContactLabel: 'CONTACTO DIRECTO',
-    location: 'México',
+    location: 'Puerto Rico, EE. UU.',
     professionalLinksLabel: 'ENLACES PROFESIONALES',
     availabilityLabel: 'DISPONIBILIDAD',
     availabilityStatus: 'Actualmente disponible para colaboraciones',
@@ -368,8 +368,7 @@ const es = {
           'Framework de diseño curricular para programas STEM que integra matemáticas, ciencia y tecnología bajo una visión interdisciplinaria. Incluye mapas de aprendizaje, secuencias didácticas y herramientas de evaluación.',
         tags: ['Currículo', 'STEM', 'Evaluación'],
         links: [
-          { label: 'Descargar framework →', href: '#', external: true },
-          { label: 'Ver caso de estudio →', href: '#', external: true },
+          { label: 'Ver eBook STEM →', href: 'https://digitalmathematics.org/stem/Ebook-STEM/index.html', external: true },
         ],
       },
       {
@@ -442,7 +441,7 @@ const en = {
   trajectory: {
     sectionLabel: 'TRAJECTORY',
     name: 'Yonatan Guerrero Soriano',
-    subtitle: 'PhD in Education · Mathematician · EdTech · AI',
+    subtitle: 'EdD in Education · Mathematician · EdTech · AI',
     quote:
       'My work lives at the intersection: where educational theory meets technological implementation, and where mathematics finds new languages for teaching.',
     timeline: [
@@ -532,7 +531,7 @@ const en = {
     navLabel: 'Navigation',
     linksLabel: 'Links',
     contactLabel: 'Contact',
-    location: 'Mexico',
+    location: 'Puerto Rico, USA',
     copyright: '© 2025 Yonatan Guerrero Soriano',
     tagline: 'Made with academic rigor and code',
   },
@@ -541,7 +540,7 @@ const en = {
     breadcrumbCurrent: 'About me',
     subtitle: 'Doctor in Education · Mathematician · Researcher · EdTech Innovator',
     stats: [
-      { abbr: 'PhD', label: 'Doctorate in Education' },
+      { abbr: 'EdD', label: 'Doctorate in Education' },
       { abbr: 'MSc', label: 'Biomathematics' },
       { abbr: 'EdTech', label: 'Educational Technology' },
       { abbr: 'AI', label: 'Artificial Intelligence' },
@@ -566,25 +565,25 @@ const en = {
     headingAccent: 'here',
     items: [
       {
-        title: 'Doctorate in Education',
-        institution: 'University [Name]',
-        focus: 'Instructional technology and distance education',
+        title: 'Bachelor of Science in Biomathematics',
+        institution: 'Universidad Metropolitana (UAGM)',
+        focus: 'Applied Mathematics, Bioinformatics and Computational Biology',
         description:
-          'Doctoral research focused on the design of technology-mediated learning environments, with emphasis on mathematics education and hybrid environments.',
+          'Solid foundation in mathematical modeling, biological data analysis and computational methods. This training shaped my analytical and quantitative thinking.',
       },
       {
-        title: 'Master\'s in Biomathematics',
-        institution: 'University [Name]',
-        focus: 'Mathematical modeling of biological systems',
+        title: 'Master of Education (MEd)',
+        institution: 'Inter American University of Puerto Rico – Metropolitan Campus',
+        focus: 'Educational Sciences with a Specialization in Mathematics',
         description:
-          'Training in applied mathematical modeling, biological data analysis and computational methods for scientific research.',
+          'In-depth study of mathematics didactics, curriculum design and formative assessment. Suma Cum Laude. Focus on discrete mathematics and teaching methodologies.',
       },
       {
-        title: 'Specialization in Mathematics Education',
-        institution: 'University [Name]',
-        focus: 'Didactics, curriculum design and assessment',
+        title: 'Doctor of Education (EdD)',
+        institution: 'Nova Southeastern University',
+        focus: 'Specialization in Instructional Technology and Distance Education',
         description:
-          'In-depth study of mathematics teaching methods, mathematical curriculum design and formative assessment strategies.',
+          'Doctoral research on instructional design strategies for hybrid mathematics learning using AI as a pedagogical tool.',
       },
       {
         title: 'Digital Mathematics',
@@ -695,7 +694,7 @@ const en = {
     validationMessageRequired: 'Message is required',
     validationMessageMin: 'Message must be at least 10 characters',
     directContactLabel: 'DIRECT CONTACT',
-    location: 'Mexico',
+    location: 'Puerto Rico, USA',
     professionalLinksLabel: 'PROFESSIONAL LINKS',
     availabilityLabel: 'AVAILABILITY',
     availabilityStatus: 'Currently available for collaborations',
@@ -788,8 +787,7 @@ const en = {
           'Curriculum design framework for STEM programs integrating mathematics, science and technology under an interdisciplinary vision. Includes learning maps, didactic sequences and assessment tools.',
         tags: ['Curriculum', 'STEM', 'Assessment'],
         links: [
-          { label: 'Download framework →', href: '#', external: true },
-          { label: 'View case study →', href: '#', external: true },
+          { label: 'View STEM eBook →', href: 'https://digitalmathematics.org/stem/Ebook-STEM/index.html', external: true },
         ],
       },
       {
